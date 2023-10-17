@@ -38,4 +38,5 @@ GATEWAY_DEPS = [
     "@org_golang_google_grpc//metadata:go_default_library",
     "@com_github_grpc_ecosystem_grpc_gateway_v2//runtime:go_default_library",
     "@com_github_grpc_ecosystem_grpc_gateway_v2//utilities:go_default_library",
+    "@googleapis//google/api:annotations_proto",
 ]
